@@ -1,0 +1,158 @@
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  nav .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #hero .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  #hero .wrapper .hero-text {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  #features .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #screen .wrapper,
+  #gallery .wrapper,
+  #design .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #screen .wrapper {
+    text-align: center;
+  }
+  #screen .wrapper .screen-text a {
+    margin: 0 auto;
+  }
+  #selfie .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  #gallery .wrapper img,
+  #gallery .wrapper img:nth-child(2),
+  #gallery .wrapper img:last-child {
+    width: 90%;
+    margin: 0 auto 1.5rem auto;
+  }
+  #camera .camera-features {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #gaming .wrapper img {
+    width: 100%;
+  }
+  .turbo-features {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .turbo-feature,
+  .turbo-feature-text {
+    margin: 1rem 0;
+  }
+  #contact {
+    margin: 0 auto 3rem 0;
+  }
+  #contact .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+  #contact .wrapper .contact-text {
+    margin-bottom: 1rem;
+  }
+  #contact .social {
+    margin-top: 1rem;
+  }
+  #copy {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+  body {
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+  }
+  nav ul li a {
+    display: block;
+    padding: 0.5rem 0;
+  }
+  #hero img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  #hero .hero-text,
+  #screen .screen-text,
+  #camera p,
+  #design .design-text,
+  #selfie .selfie-text,
+  #gaming p,
+  #turbo p {
+    padding: 0 1rem;
+  }
+  #features h2 {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+  }
+  #new-gen h2,
+  #mirror h2 {
+    font-size: 1.5rem;
+  }
+  #design,
+  #mirror,
+  #cta {
+    text-align: center;
+  }
+
+  #screen .wrapper img,
+  #selfie .wrapper img {
+    width: 100%;
+  }
+  #footer {
+    text-align: center;
+  }
+  #footer .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
